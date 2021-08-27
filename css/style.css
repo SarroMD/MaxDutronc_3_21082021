@@ -3,6 +3,7 @@ html
     font-family: 'Roboto', sans-serif;
     display: block;
     max-width: 1400px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -10,7 +11,8 @@ html
 
 nav
 {
-    width: 100%;
+    display: block;
+    margin-left: 18px;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
@@ -34,34 +36,29 @@ nav img
 #section_one h2
 {
     margin-top: 40px;
-}
-
-#section_one p
-{
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .localisation
 {
-    display: flex;
+    display: block;
+    margin: auto;
+    padding: 10px 0 10px 0;
     background-color: #E1E1E1;
     box-shadow: 0px -2px 1px 0px #CDCDCD;
 }
 
 .localisation i
 {
-    margin: 20px 20px 20px 615px;
-}
-
-.localisation p
-{
-    margin: 20px 0px 20px 0px;
+    margin-right: 10px;
 }
 
 /*-- BTN --*/
 
 .btn
 {
+    display: block;
+    margin: auto;
     width: 300px;
     height: 40px;
     padding: 20px 10px 10px 10px;
@@ -72,7 +69,6 @@ nav img
     text-align: center;
     font-size: 1.4em;
     box-shadow: 1px 1px 10px grey;
-    margin-left: 530px;
     margin-top: 60px;
 }
 
@@ -83,8 +79,8 @@ nav img
 
 .btn:hover
 {
-    background: rgba(black, 0.2);
-    box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.85);
+    filter: brightness(110%);
+    box-shadow: 1px 1px 10px white;
 }
 
 /*-- Section Two --*/
@@ -159,7 +155,9 @@ li
 
 #section_three
 {
-    display: flex;
+    display: block;
+    margin: auto;
+    max-width: 1400px;
     width: 100%;
     background: #F1F1F1;
 }
@@ -167,7 +165,13 @@ li
 #section_three h2
 {
     margin-left: 40px;
-    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.restaurants
+{
+    display: flex;
+    margin: 50px;
 }
 
 .photo img
@@ -181,24 +185,24 @@ li
 
 .photo
 {  
+    display: block;
+    margin: 50px;
     position: relative;
     width: 500px;
     background: #fff;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #999;
-    margin-bottom: 50px;
 }
 
 .photo_duo1
 {
-    margin-right: 100px;
-    margin-top: 100px;
+
 }
 
 .photo_duo2
 {
-    margin-top: 100px;
+
 }
 
 .photo a
@@ -241,20 +245,28 @@ li
 
 .fa-heart::before
 {
-    content: "\f004";
-    transition: color .5s ease-out;
+    opacity: 0.5;
+    transition: all 0.5s ease-out;
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
 .fa-heart:hover::before
 {
     font-weight: bold;
-    color: #9356DC;
+    opacity: 1;
 }
 
 .descri_heart3
 {
     margin-left: 40px;
+}
+
+.descri_heart2
+{
+    margin-left: -8px;
 }
 
 /*-- Footer --*/
@@ -273,6 +285,11 @@ li
     color: white;
     margin-left: -40px;
     padding-bottom: 10px;
+}
+
+#footer a:hover
+{
+    text-decoration: underline;
 }
 
 #footer ul
