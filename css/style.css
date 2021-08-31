@@ -17,11 +17,6 @@ nav
     padding: 10px 0px 10px 0px;
 }
 
-nav img
-{
-
-}
-
 /*-- Section One --*/
 
 #section_one
@@ -160,6 +155,7 @@ li
     max-width: 1400px;
     width: 100%;
     background: #F1F1F1;
+    padding-bottom: 20px;
 }
 
 #section_three h2
