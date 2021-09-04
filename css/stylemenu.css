@@ -415,13 +415,14 @@ nav img
         text-align: left;
         padding: 10px 0px 20px 30px;
         font-family: 'Shrikhand', sans-serif;
-        font-size: 1.5em;
+        font-size: 1.6em;
+        font-weight: 100;
     }
 
     .fa-heart
     {   
-        margin-top: 30px;
-        margin-left: 30px;
+        margin-top: 33px;
+        margin-left: 25px;
         font-size: 30px;
         cursor: pointer;
     }
@@ -432,9 +433,9 @@ nav img
         position: relative;
         display: block;
         text-align: center;
-        border-radius: 20px;
-        width: 300px;
-        height: 100px;
+        border-radius: 15px;
+        width: 320px;
+        height: 60px;
         font-size: 1.4em;
         margin-left: 20px;
         margin-top: 20px;
@@ -448,11 +449,119 @@ nav img
         -webkit-animation: fadein 1s forwards; /* Safari et Chrome */
     }
 
+    .choix2
+    {
+        animation-delay: 0.2s;
+    }
+
+    .choix3
+    {
+        animation-delay: 0.4s;
+    }
+
+    .choix4
+    {
+        animation-delay: 0.6s;
+    }
+
+    .choix5
+    {
+        animation-delay: 0.8s;
+    }
+
+    .choix6
+    {
+        animation-delay: 1s;
+    }
+
+    .choix7
+    {
+        animation-delay: 1.2s;
+    }
+
+    .choix8
+    {
+        animation-delay: 1.4s;
+    }
+
+    .choix9
+    {
+        animation-delay: 1.6s;
+    }
+
+    .choix10
+    {
+        animation-delay: 1.8s;
+    }
+
+    .choix h3
+    {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 0.8em;
+        margin-top: 0px;
+    }
+
+    #section_two h2
+    {
+        text-align: left;
+        margin-left: 20px;
+        border-bottom: 1px solid #99E2D0;
+        border-bottom-width: 5px;
+        width: 60px;
+        padding-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .choix p
+    {
+        text-align: left;
+        padding-left: 10px;
+        margin-top: -15px;
+        font-size: 0.6em;
+        
+    }
+
+    .prix
+    {
+        position: absolute;
+        bottom: 10px;
+        right: -170px;
+        left: 100px;
+        font-weight: bold;
+        font-size: 12px;
+
+    }
+
+    .fa-check-circle
+    {
+        color: white;
+        font-size: 20px;
+        transform: rotate(180deg);
+        transition-duration: 0.8s;
+    }
+
+    .check
+    {
+        display: flex;
+        position: absolute;
+        left: 100px;
+        width: 50px;
+        height: 60px;
+        background-color: #99E2D0;
+        justify-content: center;
+        align-items: center;
+        margin-left: 270px;
+        margin-top: -63px;
+        opacity: 0;
+    }
+
     .btn
     {
         display: block;
         margin: auto;
-        width: 300px;
+        width: 200px;
         height: 40px;
         padding: 20px 10px 10px 10px;
         border: 1px transparent;
@@ -460,7 +569,7 @@ nav img
         background: linear-gradient(to bottom right, #FF79DA, #9356DC);
         color: white;
         text-align: center;
-        font-size: 1.8em;
+        font-size: 1.5em;
         box-shadow: 1px 1px 10px grey;
         margin-top: 60px;
     }
