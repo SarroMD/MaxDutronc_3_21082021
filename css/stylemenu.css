@@ -429,6 +429,11 @@ nav img
         cursor: pointer;
     }
 
+    .descri_heart3
+    {
+        margin-left: 50px;
+    }
+
     .choix1, .choix2, .choix3, .choix4, .choix5, .choix6, .choix7, .choix8, .choix9, .choix10
     {
         opacity: 0;
