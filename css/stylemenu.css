@@ -262,10 +262,12 @@ nav img
     animation: slide .5s alternate forwards;
 }
 
-.choix1 p::after:hover
+.choix1:hover p, .choix2:hover p, .choix3:hover p, .choix4:hover p, .choix5:hover p, .choix6:hover p, .choix7:hover p, .choix8:hover p, .choix9:hover p, .choix10:hover p
 {
-    content: "...";
-    color: grey;    
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .check
@@ -499,7 +501,8 @@ nav img
         text-align: left;
         padding-top: 10px;
         padding-left: 10px;
-        font-size: 0.8em;
+        padding-bottom: 5px;
+        font-size: 0.7em;
         margin-top: 0px;
     }
 
@@ -521,6 +524,14 @@ nav img
         margin-top: -15px;
         font-size: 0.6em;
         
+    }
+
+    .choix1:hover p, .choix2:hover p, .choix3:hover p, .choix4:hover p, .choix5:hover p, .choix6:hover p, .choix7:hover p, .choix8:hover p, .choix9:hover p, .choix10:hover p
+    {
+        width: 180px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .prix
@@ -572,5 +583,12 @@ nav img
         font-size: 1.5em;
         box-shadow: 1px 1px 10px grey;
         margin-top: 60px;
+    }
+
+    #footer
+    {
+        background: #313333;
+        padding-top: 1px;
+        padding-left: 20px;
     }
 }
