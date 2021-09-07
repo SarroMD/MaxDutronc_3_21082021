@@ -407,21 +407,21 @@ li
 
 /* -- Responsive Design Smartphone ---------------------------------------------------------------------------------------- */
 
-@media all and (max-width: 375px)
+@media all and (max-width: 576px)
 {
     html
     {
         font-family: 'Roboto', sans-serif;
         display: block;
-        max-width: 375px;
-        width: 375px;
+        max-width: 576px;
+        width: 576px;
         margin: auto;
     }
 
     nav img
     {
         display: block;
-        margin-left: 60px
+        margin-left: 170px;
     }
 
     .btn
