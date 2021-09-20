@@ -219,7 +219,7 @@ nav img
     padding-left: 15px;
     margin-top: -15px;
     font-size: 1em;
-    
+    transition: margin-left .8s;
 }
 
 .prix
@@ -253,7 +253,6 @@ nav img
     -moz-transition: margin-left .5s ease-out;
     transition: margin-left .5s ease-out;
     margin-left: 500px;
-
 }
 
 .choix1:hover .prix, .choix2:hover .prix, .choix3:hover .prix, .choix4:hover .prix, .choix5:hover .prix, .choix6:hover .prix, .choix7:hover .prix, .choix8:hover .prix, .choix9:hover .prix, .choix10:hover .prix
