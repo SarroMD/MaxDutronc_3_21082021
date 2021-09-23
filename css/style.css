@@ -3,7 +3,7 @@ html
     font-family: 'Roboto', sans-serif;
     display: block;
     max-width: 1400px;
-    width: 1400px;
+    width: auto;
     margin: auto;
 }
 
@@ -405,6 +405,107 @@ li
     padding-bottom: 10px;
 }
 
+/* -- Responsive Design ---------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 1320px)
+{
+    /*-- Section Three --*/
+
+    #section_three
+    {
+        display: block;
+        margin: auto;
+        max-width: 1400px;
+        width: 100%;
+        background: #F1F1F1;
+        padding-bottom: 20px;
+    }
+
+    #section_three h2
+    {
+        text-align: left;
+        margin-left: 40px;
+        padding-top: 40px;
+    }
+
+    .restaurants
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .photo img
+    {
+        height: 100%;
+        width: 500px;
+        max-height: 300px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .photo
+    {  
+        display: block;
+        margin: 50px;
+        position: relative;
+        width: 500px;
+        background: #fff;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #999;
+    }
+}
+
+/* -- Responsive Design Smartphone ---------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 620px)
+{
+    /*-- Section Three --*/
+
+    .photo img
+    {
+        height: 100%;
+        width: 450px;
+        max-height: 300px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .photo
+    {  
+        display: block;
+        margin: 50px;
+        position: relative;
+        width: 450px;
+        background: #fff;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #999;
+    }
+
+        .descri_heart1
+    {
+        margin-left: 210px;
+    }
+
+    .descri_heart2
+    {
+        margin-left: 207px;
+    }
+
+    .descri_heart3
+    {
+        margin-left: 245px;
+    }
+
+    .descri_heart4
+    {
+        margin-left: 207px;
+    }
+}
+
 /* -- Responsive Design Smartphone ---------------------------------------------------------------------------------------- */
 
 @media all and (max-width: 576px)
@@ -414,16 +515,10 @@ li
         font-family: 'Roboto', sans-serif;
         display: block;
         max-width: 576px;
-        width: 576px;
+        width: auto;
         margin: auto;
     }
-
-    nav img
-    {
-        display: block;
-        margin-left: 170px;
-    }
-
+    
     .btn
     {
         display: block;
