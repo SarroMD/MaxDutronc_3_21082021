@@ -612,7 +612,7 @@ li
     {
         display: block;
         margin: auto;
-        max-width: 375px;
+        max-width: 576px;
         width: 100%;
         background: #F1F1F1;
         padding-bottom: 20px;
@@ -629,7 +629,6 @@ li
     {
         display: flex;
         flex-direction: column;
-        margin: 40px 20px 40px 0px;
     }
 
     .photo img
@@ -648,7 +647,6 @@ li
         position: relative;
         width: 320px;
         background: #fff;
-        margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 1px 1px 10px #999;
     }
@@ -718,4 +716,67 @@ li
         padding-left: 20px;
     }
     
+}
+
+/* -- Responsive Design Smartphone ---------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 376px)
+{
+    .photo img
+    {
+        height: 100%;
+        width: 280px;
+        max-height: 200px;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+
+    .photo
+    {  
+        display: block;
+        margin: 20px;
+        position: relative;
+        width: 280px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #999;
+    }
+
+    .btn
+    {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 250px;
+        height: 40px;
+        padding: 20px 10px 10px 10px;
+        border: 1px transparent;
+        border-radius: 40px;
+        background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+        box-shadow: 1px 1px 10px grey;
+        margin-top: 60px;
+    }
+
+    .descri_heart1
+    {
+        margin-left: 67px;
+    }
+
+    .descri_heart2
+    {
+        margin-left: 65px;
+    }
+
+    .descri_heart3
+    {
+        margin-left: 108px;
+    }
+
+    .descri_heart4
+    {
+        margin-left: 65px;
+    }
 }
